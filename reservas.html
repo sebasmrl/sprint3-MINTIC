@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reservas.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulos">Registrar reservas</h1>
+    </header>
+
+    <main>
+        <form id="form-reservar" class="formulario">
+            <input type="text " id="nombre" placeholder="Nombre Usuario">
+            <input type="number " name="iden"  placeholder="Documento">
+            <input type="number" name="telefono" placeholder="Numero de teléfono">
+
+            <label class="select1">
+                <label class="transporte">Incluir transporte</label>
+                <label class="radio">
+                    <label for="si">si</label>
+                    <input type="radio" value="true" id="si" name="transporte">
+                </label>
+
+                <label class="radio">
+                    <label for="no">no</label>
+                    <input type="radio" value="false" id="no" name="transporte">
+                </label>
+                    
+            </label>
+            
+            <label class="select2">
+                <label >Numero de personas</label>
+                <select id="numPersonas" name="nPersonas" class="num_personas">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+            <label class="submit">
+                <button class="button button2" type="submit">Reservar</button>
+            </label>
+            
+        </form>
+    </main>
+
+    <footer>
+        <h1 class="titulos">Lista de Reservas</h1>
+        <table class="tabla">
+            <thead>
+                <th>ID</th>
+                <th>Identificacion</th>
+                <th>Nombre</th>
+                <th>Telefono</th>
+                <th>Transporte</th>
+                <th></th>
+            </thead>
+            <tbody>
+            </tbody>
+            
+        </table>
+            
+            
+        
+    </footer>
+
+    <script src="./js/reservas.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid white;
+    margin: 1rem 5rem;
+    background-image: url("../img/happy-stylish-caucasian-man-with-backpack-travel-in-rice-plantation-and-making-self-portrai-for-memories.jpg");
+    background-size: cover;
+    
+}
+header{
+    margin:2rem 10rem ;
+}
+
+.titulos{
+    color:aliceblue;
+    background-color:black ;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+main{
+    height: 50vh;
+}
+
+.formulario{
+    margin: 0 10rem;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+input{
+    padding-left:1rem ;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.select1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.transporte{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.select2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.select2 label{
+    margin-left: 1rem;
+}
+
+.num_personas{
+    height: 1rem;
+    border: 1px solid gray;   
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 3rem;
+    border-style: none;
+}
+
+.button1:hover{
+    cursor: pointer;
+}
+
+.button2:hover{
+    
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 3rem; 
+    margin-bottom:3rem ;   
+}
+
+footer h1{
+    margin-bottom: 2rem;
+}
+
+table{
+    margin-top: 1rem;
+}
+
+footer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.tabla{
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+
+
+
+
+
